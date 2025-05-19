@@ -1,0 +1,6 @@
+@UdemiCourse_HostAddress = http://localhost:5086
+
+GET {{UdemiCourse_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

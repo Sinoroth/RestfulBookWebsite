@@ -1,0 +1,387 @@
+2025-04-25 18:48:57.512 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-04-25 18:48:57.575 +03:00 [DBG] Hosting starting
+2025-04-25 18:48:57.736 +03:00 [INF] Now listening on: https://localhost:7177
+2025-04-25 18:48:57.736 +03:00 [INF] Now listening on: http://localhost:5086
+2025-04-25 18:48:57.736 +03:00 [DBG] Loaded hosting startup assembly RESTfulBookWebsite
+2025-04-25 18:48:57.736 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-04-25 18:48:57.736 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-04-25 18:48:57.736 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-04-25 18:48:57.808 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-25 18:48:57.809 +03:00 [INF] Hosting environment: Development
+2025-04-25 18:48:57.809 +03:00 [INF] Content root path: D:\UdemiCourse - Copy\UdemiCourse
+2025-04-25 18:48:57.809 +03:00 [DBG] Hosting started
+2025-04-25 18:48:58.110 +03:00 [DBG] Connection id "0HNC422OGLJPI" accepted.
+2025-04-25 18:48:58.110 +03:00 [DBG] Connection id "0HNC422OGLJPI" started.
+2025-04-25 18:48:58.121 +03:00 [DBG] Connection id "0HNC422OGLJPJ" accepted.
+2025-04-25 18:48:58.121 +03:00 [DBG] Connection id "0HNC422OGLJPJ" started.
+2025-04-25 18:48:58.137 +03:00 [DBG] Connection id "0HNC422OGLJPI" received FIN.
+2025-04-25 18:48:58.137 +03:00 [DBG] Connection id "0HNC422OGLJPJ" received FIN.
+2025-04-25 18:48:58.148 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-04-25 18:48:58.148 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-04-25 18:48:58.172 +03:00 [DBG] Connection id "0HNC422OGLJPJ" stopped.
+2025-04-25 18:48:58.172 +03:00 [DBG] Connection id "0HNC422OGLJPI" stopped.
+2025-04-25 18:48:58.175 +03:00 [DBG] Connection id "0HNC422OGLJPI" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-25 18:48:58.175 +03:00 [DBG] Connection id "0HNC422OGLJPJ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-25 18:48:58.448 +03:00 [DBG] Connection id "0HNC422OGLJPK" accepted.
+2025-04-25 18:48:58.448 +03:00 [DBG] Connection id "0HNC422OGLJPK" started.
+2025-04-25 18:48:58.476 +03:00 [DBG] Connection 0HNC422OGLJPK established using the following protocol: "Tls13"
+2025-04-25 18:48:58.521 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger - null null
+2025-04-25 18:48:58.600 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-04-25 18:48:58.613 +03:00 [DBG] No candidates found for the request path '/swagger'
+2025-04-25 18:48:58.614 +03:00 [DBG] Request did not match any endpoints
+2025-04-25 18:48:58.625 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger - 301 0 null 110.295ms
+2025-04-25 18:48:58.630 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/index.html - null null
+2025-04-25 18:48:58.633 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2025-04-25 18:48:58.633 +03:00 [DBG] Request did not match any endpoints
+2025-04-25 18:48:58.667 +03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-04-25 18:48:58.668 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-04-25 18:48:58.671 +03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2025-04-25 18:48:58.671 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-04-25 18:48:58.671 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/index.html - 200 null text/html;charset=utf-8 41.0053ms
+2025-04-25 18:48:58.703 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/swagger-ui.css - null null
+2025-04-25 18:48:58.703 +03:00 [DBG] No candidates found for the request path '/swagger/swagger-ui.css'
+2025-04-25 18:48:58.703 +03:00 [DBG] Request did not match any endpoints
+2025-04-25 18:48:58.706 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/swagger-ui-bundle.js - null null
+2025-04-25 18:48:58.706 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/swagger-ui-standalone-preset.js - null null
+2025-04-25 18:48:58.706 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/index.css - null null
+2025-04-25 18:48:58.706 +03:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-bundle.js'
+2025-04-25 18:48:58.706 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/index.js - null null
+2025-04-25 18:48:58.706 +03:00 [DBG] No candidates found for the request path '/swagger/index.css'
+2025-04-25 18:48:58.706 +03:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js'
+2025-04-25 18:48:58.706 +03:00 [DBG] Request did not match any endpoints
+2025-04-25 18:48:58.706 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-25 18:48:58.708 +03:00 [DBG] Request did not match any endpoints
+2025-04-25 18:48:58.708 +03:00 [DBG] Request did not match any endpoints
+2025-04-25 18:48:58.708 +03:00 [DBG] No candidates found for the request path '/swagger/index.js'
+2025-04-25 18:48:58.709 +03:00 [DBG] Request did not match any endpoints
+2025-04-25 18:48:58.714 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/index.js - 200 null application/javascript;charset=utf-8 7.5439ms
+2025-04-25 18:48:58.717 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/_vs/browserLink - null null
+2025-04-25 18:48:58.725 +03:00 [INF] Sending file. Request path: '/index.css'. Physical path: 'N/A'
+2025-04-25 18:48:58.725 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/index.css - 200 202 text/css 19.713ms
+2025-04-25 18:48:58.737 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 30.4199ms
+2025-04-25 18:48:58.743 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-04-25 18:48:58.745 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/swagger-ui.css - 200 152035 text/css 42.2282ms
+2025-04-25 18:48:58.748 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-04-25 18:48:58.748 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/swagger-ui-standalone-preset.js - 200 230007 text/javascript 42.3581ms
+2025-04-25 18:48:58.777 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-04-25 18:48:58.777 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/swagger-ui-bundle.js - 200 1426050 text/javascript 71.5426ms
+2025-04-25 18:48:58.779 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/_vs/browserLink - 200 null text/javascript; charset=UTF-8 63.0268ms
+2025-04-25 18:48:58.872 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/v1/swagger.json - null null
+2025-04-25 18:48:58.872 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-04-25 18:48:58.872 +03:00 [DBG] Request did not match any endpoints
+2025-04-25 18:48:58.885 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/favicon-32x32.png - null null
+2025-04-25 18:48:58.886 +03:00 [DBG] No candidates found for the request path '/swagger/favicon-32x32.png'
+2025-04-25 18:48:58.886 +03:00 [DBG] Request did not match any endpoints
+2025-04-25 18:48:58.886 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-04-25 18:48:58.886 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/favicon-32x32.png - 200 628 image/png 0.7769ms
+2025-04-25 18:48:59.009 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 136.9001ms
+2025-04-25 18:49:04.625 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Users - null null
+2025-04-25 18:49:04.630 +03:00 [DBG] 1 candidate(s) found for the request path '/api/Users'
+2025-04-25 18:49:04.632 +03:00 [DBG] Endpoint 'RESTfulBookWebsite.Models.UsersController.GetUsers (RESTfulBookWebsite)' with route pattern 'api/Users' is valid for the request path '/api/Users'
+2025-04-25 18:49:04.632 +03:00 [DBG] Request matched endpoint 'RESTfulBookWebsite.Models.UsersController.GetUsers (RESTfulBookWebsite)'
+2025-04-25 18:49:04.635 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-04-25 18:49:04.637 +03:00 [INF] Executing endpoint 'RESTfulBookWebsite.Models.UsersController.GetUsers (RESTfulBookWebsite)'
+2025-04-25 18:49:04.660 +03:00 [INF] Route matched with {action = "GetUsers", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[RESTfulBookWebsite.Models.Dto.UserDTO]]] GetUsers() on controller RESTfulBookWebsite.Models.UsersController (RESTfulBookWebsite).
+2025-04-25 18:49:04.661 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-04-25 18:49:04.662 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-04-25 18:49:04.662 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-04-25 18:49:04.662 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-04-25 18:49:04.662 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-04-25 18:49:04.663 +03:00 [DBG] Executing controller factory for controller RESTfulBookWebsite.Models.UsersController (RESTfulBookWebsite)
+2025-04-25 18:49:04.985 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2025-04-25 18:49:05.523 +03:00 [DBG] Entity Framework Core 9.0.1 initialized 'ApplicationDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:9.0.1' with options: EngineType=SqlServer 
+2025-04-25 18:49:05.597 +03:00 [DBG] Executed controller factory for controller RESTfulBookWebsite.Models.UsersController (RESTfulBookWebsite)
+2025-04-25 18:49:05.599 +03:00 [INF] Getting all Users
+2025-04-25 18:49:05.780 +03:00 [DBG] Compiling query expression: 
+'DbSet<User>()'
+2025-04-25 18:49:05.973 +03:00 [DBG] Generated query execution expression: 
+'queryContext => SingleQueryingEnumerable.Create<User>(
+    relationalQueryContext: (RelationalQueryContext)queryContext, 
+    relationalCommandResolver: parameters => [LIFTABLE Constant: RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: User.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: User.CreatedDate (DateTime) Required, 1], [Property: User.Name (string) Required, 2], [Property: User.Password (string) Required, 3], [Property: User.UpdatedDate (DateTime) Required, 4], [Property: User.Username (string) Required, 5] }
+        SELECT u.Id, u.CreatedDate, u.Name, u.Password, u.UpdatedDate, u.Username
+        FROM Users AS u) | Resolver: c => new RelationalCommandCache(
+        c.Dependencies.MemoryCache, 
+        c.RelationalDependencies.QuerySqlGeneratorFactory, 
+        c.RelationalDependencies.RelationalParameterBasedSqlProcessorFactory, 
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: User.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: User.CreatedDate (DateTime) Required, 1], [Property: User.Name (string) Required, 2], [Property: User.Password (string) Required, 3], [Property: User.UpdatedDate (DateTime) Required, 4], [Property: User.Username (string) Required, 5] }
+        SELECT u.Id, u.CreatedDate, u.Name, u.Password, u.UpdatedDate, u.Username
+        FROM Users AS u, 
+        False, 
+        new HashSet<string>(
+            new string[]{ }, 
+            StringComparer.Ordinal
+        )
+    )].GetRelationalCommandTemplate(parameters), 
+    readerColumns: null, 
+    shaper: (queryContext, dataReader, resultContext, resultCoordinator) => 
+    {
+        User entity;
+        entity = 
+        {
+            MaterializationContext materializationContext1;
+            IEntityType entityType1;
+            User instance1;
+            InternalEntityEntry entry1;
+            bool hasNullKey1;
+            materializationContext1 = new MaterializationContext(
+                [LIFTABLE Constant: ValueBuffer | Resolver: _ => (object)ValueBuffer.Empty], 
+                queryContext.Context
+            );
+            instance1 = default(User);
+            entry1 = queryContext.TryGetEntry(
+                key: [LIFTABLE Constant: Key: User.Id PK | Resolver: c => c.Dependencies.Model.FindEntityType("RESTfulBookWebsite.Models.User").FindPrimaryKey()], 
+                keyValues: new object[]{ (object)dataReader.GetInt32(0) }, 
+                throwOnNullKey: True, 
+                hasNullKey: hasNullKey1);
+            !(hasNullKey1) ? entry1 != default(InternalEntityEntry) ? 
+            {
+                entityType1 = entry1.EntityType;
+                return instance1 = (User)entry1.Entity;
+            } : 
+            {
+                ISnapshot shadowSnapshot1;
+                shadowSnapshot1 = [LIFTABLE Constant: Snapshot | Resolver: _ => Snapshot.Empty];
+                entityType1 = [LIFTABLE Constant: EntityType: User | Resolver: namelessParameter{0} => namelessParameter{0}.Dependencies.Model.FindEntityType("RESTfulBookWebsite.Models.User")];
+                instance1 = switch (entityType1)
+                {
+                    case [LIFTABLE Constant: EntityType: User | Resolver: namelessParameter{1} => namelessParameter{1}.Dependencies.Model.FindEntityType("RESTfulBookWebsite.Models.User")]: 
+                        {
+                            return 
+                            {
+                                User instance;
+                                instance = new User();
+                                instance.<Id>k__BackingField = dataReader.GetInt32(0);
+                                instance.<CreatedDate>k__BackingField = dataReader.GetDateTime(1);
+                                instance.<Name>k__BackingField = dataReader.GetString(2);
+                                instance.<Password>k__BackingField = dataReader.GetString(3);
+                                instance.<UpdatedDate>k__BackingField = dataReader.GetDateTime(4);
+                                instance.<Username>k__BackingField = dataReader.GetString(5);
+                                (instance is IInjectableService) ? ((IInjectableService)instance).Injected(
+                                    context: materializationContext1.Context, 
+                                    entity: instance, 
+                                    queryTrackingBehavior: TrackAll, 
+                                    structuralType: [LIFTABLE Constant: EntityType: User | Resolver: namelessParameter{2} => namelessParameter{2}.Dependencies.Model.FindEntityType("RESTfulBookWebsite.Models.User")]) : default(void);
+                                return instance;
+                            }}
+                    default: 
+                        default(User)
+                }
+                ;
+                entry1 = entityType1 == default(IEntityType) ? default(InternalEntityEntry) : queryContext.StartTracking(
+                    entityType: entityType1, 
+                    entity: instance1, 
+                    snapshot: shadowSnapshot1);
+                return instance1;
+            } : default(void);
+            return instance1;
+        };
+        return entity;
+    }, 
+    contextType: UdemiCourse.Data.ApplicationDBContext, 
+    standAloneStateManager: False, 
+    detailedErrorsEnabled: False, 
+    threadSafetyChecksEnabled: True)'
+2025-04-25 18:49:06.002 +03:00 [DBG] Creating DbConnection.
+2025-04-25 18:49:06.021 +03:00 [DBG] Created DbConnection. (18ms).
+2025-04-25 18:49:06.024 +03:00 [DBG] Opening connection to database 'BookWebsiteAPI' on server 'DenisComputer\SQLEXPRESS'.
+2025-04-25 18:49:06.545 +03:00 [DBG] Opened connection to database 'BookWebsiteAPI' on server 'DenisComputer\SQLEXPRESS'.
+2025-04-25 18:49:06.550 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-04-25 18:49:06.559 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (6ms).
+2025-04-25 18:49:06.561 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (12ms).
+2025-04-25 18:49:06.566 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[CreatedDate], [u].[Name], [u].[Password], [u].[UpdatedDate], [u].[Username]
+FROM [Users] AS [u]
+2025-04-25 18:49:06.624 +03:00 [INF] Executed DbCommand (55ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[CreatedDate], [u].[Name], [u].[Password], [u].[UpdatedDate], [u].[Username]
+FROM [Users] AS [u]
+2025-04-25 18:49:06.649 +03:00 [DBG] Context 'ApplicationDBContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-04-25 18:49:06.667 +03:00 [DBG] Context 'ApplicationDBContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-04-25 18:49:06.667 +03:00 [DBG] Context 'ApplicationDBContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-04-25 18:49:06.671 +03:00 [DBG] Closing data reader to 'BookWebsiteAPI' on server 'DenisComputer\SQLEXPRESS'.
+2025-04-25 18:49:06.676 +03:00 [DBG] A data reader for 'BookWebsiteAPI' on server 'DenisComputer\SQLEXPRESS' is being disposed after spending 48ms reading results.
+2025-04-25 18:49:06.678 +03:00 [DBG] Closing connection to database 'BookWebsiteAPI' on server 'DenisComputer\SQLEXPRESS'.
+2025-04-25 18:49:06.683 +03:00 [DBG] Closed connection to database 'BookWebsiteAPI' on server 'DenisComputer\SQLEXPRESS' (4ms).
+2025-04-25 18:49:06.697 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2025-04-25 18:49:06.698 +03:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2025-04-25 18:49:06.700 +03:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2025-04-25 18:49:06.700 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-04-25 18:49:06.700 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-04-25 18:49:06.701 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-04-25 18:49:06.701 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RESTfulBookWebsite.Models.Dto.UserDTO, RESTfulBookWebsite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-04-25 18:49:06.793 +03:00 [INF] Executed action RESTfulBookWebsite.Models.UsersController.GetUsers (RESTfulBookWebsite) in 2127.7768ms
+2025-04-25 18:49:06.793 +03:00 [INF] Executed endpoint 'RESTfulBookWebsite.Models.UsersController.GetUsers (RESTfulBookWebsite)'
+2025-04-25 18:49:06.795 +03:00 [DBG] 'ApplicationDBContext' disposed.
+2025-04-25 18:49:06.798 +03:00 [DBG] Disposing connection to database 'BookWebsiteAPI' on server 'DenisComputer\SQLEXPRESS'.
+2025-04-25 18:49:06.799 +03:00 [DBG] Disposed connection to database '' on server '' (0ms).
+2025-04-25 18:49:06.799 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Users - 200 224 application/json; charset=utf-8 2174.332ms
+2025-04-25 18:50:47.258 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Users/1 - null null
+2025-04-25 18:50:47.261 +03:00 [DBG] 2 candidate(s) found for the request path '/api/Users/1'
+2025-04-25 18:50:47.263 +03:00 [DBG] Endpoint 'RESTfulBookWebsite.Models.UsersController.GetUser (RESTfulBookWebsite)' with route pattern 'api/Users/{id:int}' is valid for the request path '/api/Users/1'
+2025-04-25 18:50:47.263 +03:00 [DBG] Endpoint 'RESTfulBookWebsite.Models.UsersController.GetUserByName (RESTfulBookWebsite)' with route pattern 'api/Users/{name}' is valid for the request path '/api/Users/1'
+2025-04-25 18:50:47.263 +03:00 [DBG] Request matched endpoint 'RESTfulBookWebsite.Models.UsersController.GetUser (RESTfulBookWebsite)'
+2025-04-25 18:50:47.263 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-04-25 18:50:47.263 +03:00 [INF] Executing endpoint 'RESTfulBookWebsite.Models.UsersController.GetUser (RESTfulBookWebsite)'
+2025-04-25 18:50:47.274 +03:00 [INF] Route matched with {action = "GetUser", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[RESTfulBookWebsite.Models.Dto.UserDTO]] GetUser(Int32) on controller RESTfulBookWebsite.Models.UsersController (RESTfulBookWebsite).
+2025-04-25 18:50:47.274 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-04-25 18:50:47.274 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-04-25 18:50:47.274 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-04-25 18:50:47.274 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-04-25 18:50:47.274 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-04-25 18:50:47.274 +03:00 [DBG] Executing controller factory for controller RESTfulBookWebsite.Models.UsersController (RESTfulBookWebsite)
+2025-04-25 18:50:47.318 +03:00 [DBG] Entity Framework Core 9.0.1 initialized 'ApplicationDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:9.0.1' with options: EngineType=SqlServer 
+2025-04-25 18:50:47.318 +03:00 [DBG] Executed controller factory for controller RESTfulBookWebsite.Models.UsersController (RESTfulBookWebsite)
+2025-04-25 18:50:47.324 +03:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' ...
+2025-04-25 18:50:47.326 +03:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2025-04-25 18:50:47.328 +03:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2025-04-25 18:50:47.328 +03:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2025-04-25 18:50:47.328 +03:00 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2025-04-25 18:50:47.329 +03:00 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2025-04-25 18:50:47.344 +03:00 [DBG] Compiling query expression: 
+'DbSet<User>()
+    .Where(u => u.Id == __id_0)
+    .FirstOrDefault()'
+2025-04-25 18:50:47.397 +03:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<User>(
+    asyncEnumerable: SingleQueryingEnumerable.Create<User>(
+        relationalQueryContext: (RelationalQueryContext)queryContext, 
+        relationalCommandResolver: parameters => [LIFTABLE Constant: RelationalCommandCache.QueryExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: User.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: User.CreatedDate (DateTime) Required, 1], [Property: User.Name (string) Required, 2], [Property: User.Password (string) Required, 3], [Property: User.UpdatedDate (DateTime) Required, 4], [Property: User.Username (string) Required, 5] }
+            SELECT TOP(1) u.Id, u.CreatedDate, u.Name, u.Password, u.UpdatedDate, u.Username
+            FROM Users AS u
+            WHERE u.Id == @__id_0) | Resolver: c => new RelationalCommandCache(
+            c.Dependencies.MemoryCache, 
+            c.RelationalDependencies.QuerySqlGeneratorFactory, 
+            c.RelationalDependencies.RelationalParameterBasedSqlProcessorFactory, 
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: User.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: User.CreatedDate (DateTime) Required, 1], [Property: User.Name (string) Required, 2], [Property: User.Password (string) Required, 3], [Property: User.UpdatedDate (DateTime) Required, 4], [Property: User.Username (string) Required, 5] }
+            SELECT TOP(1) u.Id, u.CreatedDate, u.Name, u.Password, u.UpdatedDate, u.Username
+            FROM Users AS u
+            WHERE u.Id == @__id_0, 
+            False, 
+            new HashSet<string>(
+                new string[]{ }, 
+                StringComparer.Ordinal
+            )
+        )].GetRelationalCommandTemplate(parameters), 
+        readerColumns: null, 
+        shaper: (queryContext, dataReader, resultContext, resultCoordinator) => 
+        {
+            User entity;
+            entity = 
+            {
+                MaterializationContext materializationContext1;
+                IEntityType entityType1;
+                User instance1;
+                InternalEntityEntry entry1;
+                bool hasNullKey1;
+                materializationContext1 = new MaterializationContext(
+                    [LIFTABLE Constant: ValueBuffer | Resolver: _ => (object)ValueBuffer.Empty], 
+                    queryContext.Context
+                );
+                instance1 = default(User);
+                entry1 = queryContext.TryGetEntry(
+                    key: [LIFTABLE Constant: Key: User.Id PK | Resolver: c => c.Dependencies.Model.FindEntityType("RESTfulBookWebsite.Models.User").FindPrimaryKey()], 
+                    keyValues: new object[]{ (object)dataReader.GetInt32(0) }, 
+                    throwOnNullKey: True, 
+                    hasNullKey: hasNullKey1);
+                !(hasNullKey1) ? entry1 != default(InternalEntityEntry) ? 
+                {
+                    entityType1 = entry1.EntityType;
+                    return instance1 = (User)entry1.Entity;
+                } : 
+                {
+                    ISnapshot shadowSnapshot1;
+                    shadowSnapshot1 = [LIFTABLE Constant: Snapshot | Resolver: _ => Snapshot.Empty];
+                    entityType1 = [LIFTABLE Constant: EntityType: User | Resolver: namelessParameter{0} => namelessParameter{0}.Dependencies.Model.FindEntityType("RESTfulBookWebsite.Models.User")];
+                    instance1 = switch (entityType1)
+                    {
+                        case [LIFTABLE Constant: EntityType: User | Resolver: namelessParameter{1} => namelessParameter{1}.Dependencies.Model.FindEntityType("RESTfulBookWebsite.Models.User")]: 
+                            {
+                                return 
+                                {
+                                    User instance;
+                                    instance = new User();
+                                    instance.<Id>k__BackingField = dataReader.GetInt32(0);
+                                    instance.<CreatedDate>k__BackingField = dataReader.GetDateTime(1);
+                                    instance.<Name>k__BackingField = dataReader.GetString(2);
+                                    instance.<Password>k__BackingField = dataReader.GetString(3);
+                                    instance.<UpdatedDate>k__BackingField = dataReader.GetDateTime(4);
+                                    instance.<Username>k__BackingField = dataReader.GetString(5);
+                                    (instance is IInjectableService) ? ((IInjectableService)instance).Injected(
+                                        context: materializationContext1.Context, 
+                                        entity: instance, 
+                                        queryTrackingBehavior: TrackAll, 
+                                        structuralType: [LIFTABLE Constant: EntityType: User | Resolver: namelessParameter{2} => namelessParameter{2}.Dependencies.Model.FindEntityType("RESTfulBookWebsite.Models.User")]) : default(void);
+                                    return instance;
+                                }}
+                        default: 
+                            default(User)
+                    }
+                    ;
+                    entry1 = entityType1 == default(IEntityType) ? default(InternalEntityEntry) : queryContext.StartTracking(
+                        entityType: entityType1, 
+                        entity: instance1, 
+                        snapshot: shadowSnapshot1);
+                    return instance1;
+                } : default(void);
+                return instance1;
+            };
+            return entity;
+        }, 
+        contextType: UdemiCourse.Data.ApplicationDBContext, 
+        standAloneStateManager: False, 
+        detailedErrorsEnabled: False, 
+        threadSafetyChecksEnabled: True), 
+    cancellationToken: queryContext.CancellationToken)'
+2025-04-25 18:50:47.406 +03:00 [DBG] Creating DbConnection.
+2025-04-25 18:50:47.406 +03:00 [DBG] Created DbConnection. (0ms).
+2025-04-25 18:50:47.406 +03:00 [DBG] Opening connection to database 'BookWebsiteAPI' on server 'DenisComputer\SQLEXPRESS'.
+2025-04-25 18:50:47.407 +03:00 [DBG] Opened connection to database 'BookWebsiteAPI' on server 'DenisComputer\SQLEXPRESS'.
+2025-04-25 18:50:47.407 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-04-25 18:50:47.407 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2025-04-25 18:50:47.409 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (2ms).
+2025-04-25 18:50:47.411 +03:00 [DBG] Executing DbCommand [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[CreatedDate], [u].[Name], [u].[Password], [u].[UpdatedDate], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__id_0
+2025-04-25 18:50:47.514 +03:00 [INF] Executed DbCommand (104ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[CreatedDate], [u].[Name], [u].[Password], [u].[UpdatedDate], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__id_0
+2025-04-25 18:50:47.514 +03:00 [DBG] Context 'ApplicationDBContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-04-25 18:50:47.514 +03:00 [DBG] Closing data reader to 'BookWebsiteAPI' on server 'DenisComputer\SQLEXPRESS'.
+2025-04-25 18:50:47.515 +03:00 [DBG] A data reader for 'BookWebsiteAPI' on server 'DenisComputer\SQLEXPRESS' is being disposed after spending 0ms reading results.
+2025-04-25 18:50:47.515 +03:00 [DBG] Closing connection to database 'BookWebsiteAPI' on server 'DenisComputer\SQLEXPRESS'.
+2025-04-25 18:50:47.515 +03:00 [DBG] Closed connection to database 'BookWebsiteAPI' on server 'DenisComputer\SQLEXPRESS' (0ms).
+2025-04-25 18:50:47.517 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2025-04-25 18:50:47.517 +03:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2025-04-25 18:50:47.517 +03:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2025-04-25 18:50:47.517 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-04-25 18:50:47.517 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-04-25 18:50:47.517 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-04-25 18:50:47.517 +03:00 [INF] Executing OkObjectResult, writing value of type 'RESTfulBookWebsite.Models.Dto.UserDTO'.
+2025-04-25 18:50:47.518 +03:00 [INF] Executed action RESTfulBookWebsite.Models.UsersController.GetUser (RESTfulBookWebsite) in 243.4371ms
+2025-04-25 18:50:47.518 +03:00 [INF] Executed endpoint 'RESTfulBookWebsite.Models.UsersController.GetUser (RESTfulBookWebsite)'
+2025-04-25 18:50:47.518 +03:00 [DBG] 'ApplicationDBContext' disposed.
+2025-04-25 18:50:47.518 +03:00 [DBG] Disposing connection to database 'BookWebsiteAPI' on server 'DenisComputer\SQLEXPRESS'.
+2025-04-25 18:50:47.518 +03:00 [DBG] Disposed connection to database '' on server '' (0ms).
+2025-04-25 18:50:47.518 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Users/1 - 200 73 application/json; charset=utf-8 260.1612ms
+2025-04-25 18:56:09.999 +03:00 [DBG] Connection id "0HNC422OGLJPK" received FIN.
+2025-04-25 18:56:10.034 +03:00 [DBG] Connection id "0HNC422OGLJPK" is closed. The last processed stream ID was 25.
+2025-04-25 18:56:10.035 +03:00 [DBG] Connection id "0HNC422OGLJPK" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-25 18:56:10.038 +03:00 [DBG] The connection queue processing loop for 0HNC422OGLJPK completed.
+2025-04-25 18:56:10.040 +03:00 [DBG] Connection id "0HNC422OGLJPK" stopped.
