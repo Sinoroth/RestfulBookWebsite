@@ -1,0 +1,316 @@
+2025-05-25 15:53:54.959 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-05-25 15:53:55.027 +03:00 [DBG] Hosting starting
+2025-05-25 15:53:55.205 +03:00 [INF] Now listening on: https://localhost:7177
+2025-05-25 15:53:55.205 +03:00 [INF] Now listening on: http://localhost:5086
+2025-05-25 15:53:55.205 +03:00 [DBG] Loaded hosting startup assembly RESTfulBookWebsite
+2025-05-25 15:53:55.205 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-05-25 15:53:55.205 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-05-25 15:53:55.205 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-05-25 15:53:55.287 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-25 15:53:55.288 +03:00 [INF] Hosting environment: Development
+2025-05-25 15:53:55.288 +03:00 [INF] Content root path: D:\UdemiCourse - Copy\UdemiCourse
+2025-05-25 15:53:55.288 +03:00 [DBG] Hosting started
+2025-05-25 15:53:55.587 +03:00 [DBG] Connection id "0HNCRHCQN2USL" accepted.
+2025-05-25 15:53:55.587 +03:00 [DBG] Connection id "0HNCRHCQN2USL" started.
+2025-05-25 15:53:55.613 +03:00 [DBG] Connection id "0HNCRHCQN2USL" received FIN.
+2025-05-25 15:53:55.622 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-05-25 15:53:55.648 +03:00 [DBG] Connection id "0HNCRHCQN2USL" stopped.
+2025-05-25 15:53:55.651 +03:00 [DBG] Connection id "0HNCRHCQN2USL" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-25 15:53:56.626 +03:00 [DBG] Connection id "0HNCRHCQN2USM" accepted.
+2025-05-25 15:53:56.626 +03:00 [DBG] Connection id "0HNCRHCQN2USM" started.
+2025-05-25 15:53:56.627 +03:00 [DBG] Connection id "0HNCRHCQN2USN" accepted.
+2025-05-25 15:53:56.627 +03:00 [DBG] Connection id "0HNCRHCQN2USN" started.
+2025-05-25 15:53:56.646 +03:00 [DBG] Connection id "0HNCRHCQN2USM" received FIN.
+2025-05-25 15:53:56.654 +03:00 [DBG] Connection 0HNCRHCQN2USM established using the following protocol: "Tls13"
+2025-05-25 15:53:56.654 +03:00 [DBG] Connection 0HNCRHCQN2USN established using the following protocol: "Tls13"
+2025-05-25 15:53:56.669 +03:00 [DBG] Connection id "0HNCRHCQN2USM" is closed. The last processed stream ID was 0.
+2025-05-25 15:53:56.669 +03:00 [DBG] Connection id "0HNCRHCQN2USM" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-25 15:53:56.671 +03:00 [DBG] The connection queue processing loop for 0HNCRHCQN2USM completed.
+2025-05-25 15:53:56.672 +03:00 [DBG] Connection id "0HNCRHCQN2USM" stopped.
+2025-05-25 15:53:56.692 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger - null null
+2025-05-25 15:53:56.768 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-05-25 15:53:56.778 +03:00 [DBG] No candidates found for the request path '/swagger'
+2025-05-25 15:53:56.778 +03:00 [DBG] Request did not match any endpoints
+2025-05-25 15:53:56.789 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger - 301 0 null 101.2022ms
+2025-05-25 15:53:56.795 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/index.html - null null
+2025-05-25 15:53:56.797 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2025-05-25 15:53:56.798 +03:00 [DBG] Request did not match any endpoints
+2025-05-25 15:53:56.829 +03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-05-25 15:53:56.830 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-05-25 15:53:56.834 +03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2025-05-25 15:53:56.834 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-05-25 15:53:56.834 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/index.html - 200 null text/html;charset=utf-8 38.8339ms
+2025-05-25 15:53:56.857 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/swagger-ui.css - null null
+2025-05-25 15:53:56.858 +03:00 [DBG] No candidates found for the request path '/swagger/swagger-ui.css'
+2025-05-25 15:53:56.858 +03:00 [DBG] Request did not match any endpoints
+2025-05-25 15:53:56.858 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/index.css - null null
+2025-05-25 15:53:56.858 +03:00 [DBG] No candidates found for the request path '/swagger/index.css'
+2025-05-25 15:53:56.858 +03:00 [DBG] Request did not match any endpoints
+2025-05-25 15:53:56.858 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/swagger-ui-bundle.js - null null
+2025-05-25 15:53:56.859 +03:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-bundle.js'
+2025-05-25 15:53:56.859 +03:00 [DBG] Request did not match any endpoints
+2025-05-25 15:53:56.864 +03:00 [INF] Sending file. Request path: '/index.css'. Physical path: 'N/A'
+2025-05-25 15:53:56.864 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/index.css - 200 202 text/css 6.1548ms
+2025-05-25 15:53:56.870 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/swagger-ui-standalone-preset.js - null null
+2025-05-25 15:53:56.870 +03:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js'
+2025-05-25 15:53:56.871 +03:00 [DBG] Request did not match any endpoints
+2025-05-25 15:53:56.884 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-05-25 15:53:56.886 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-05-25 15:53:56.886 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/swagger-ui.css - 200 152035 text/css 28.8595ms
+2025-05-25 15:53:56.886 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/swagger-ui-standalone-preset.js - 200 230007 text/javascript 16.6108ms
+2025-05-25 15:53:56.889 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/index.js - null null
+2025-05-25 15:53:56.889 +03:00 [DBG] No candidates found for the request path '/swagger/index.js'
+2025-05-25 15:53:56.889 +03:00 [DBG] Request did not match any endpoints
+2025-05-25 15:53:56.890 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/index.js - 200 null application/javascript;charset=utf-8 1.3166ms
+2025-05-25 15:53:56.892 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-25 15:53:56.893 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/_vs/browserLink - null null
+2025-05-25 15:53:56.897 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 4.937ms
+2025-05-25 15:53:56.911 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-05-25 15:53:56.911 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/swagger-ui-bundle.js - 200 1426050 text/javascript 52.8158ms
+2025-05-25 15:53:56.932 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/_vs/browserLink - 200 null text/javascript; charset=UTF-8 39.1412ms
+2025-05-25 15:53:57.115 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/v1/swagger.json - null null
+2025-05-25 15:53:57.115 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/favicon-32x32.png - null null
+2025-05-25 15:53:57.115 +03:00 [DBG] No candidates found for the request path '/swagger/favicon-32x32.png'
+2025-05-25 15:53:57.115 +03:00 [DBG] Request did not match any endpoints
+2025-05-25 15:53:57.115 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-05-25 15:53:57.116 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/favicon-32x32.png - 200 628 image/png 0.7283ms
+2025-05-25 15:53:57.116 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-05-25 15:53:57.116 +03:00 [DBG] Request did not match any endpoints
+2025-05-25 15:53:57.235 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 120.4878ms
+2025-05-25 15:54:08.215 +03:00 [DBG] Connection id "0HNCRHCQN2USO" accepted.
+2025-05-25 15:54:08.216 +03:00 [DBG] Connection id "0HNCRHCQN2USO" started.
+2025-05-25 15:54:08.223 +03:00 [DBG] Connection 0HNCRHCQN2USO established using the following protocol: "Tls13"
+2025-05-25 15:54:08.224 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7177/api/Books - null null
+2025-05-25 15:54:08.229 +03:00 [DBG] 1 candidate(s) found for the request path '/api/Books'
+2025-05-25 15:54:08.230 +03:00 [DBG] Request matched endpoint '405 HTTP Method Not Supported'
+2025-05-25 15:54:08.232 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-05-25 15:54:08.233 +03:00 [DBG] The request has an origin header: 'https://book-angular-frontend.vercel.app'.
+2025-05-25 15:54:08.233 +03:00 [INF] CORS policy execution successful.
+2025-05-25 15:54:08.234 +03:00 [DBG] The request is a preflight request.
+2025-05-25 15:54:08.235 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7177/api/Books - 204 null null 10.5613ms
+2025-05-25 15:54:08.236 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Books - null null
+2025-05-25 15:54:08.237 +03:00 [DBG] 1 candidate(s) found for the request path '/api/Books'
+2025-05-25 15:54:08.241 +03:00 [DBG] Endpoint 'RESTfulBookWebsite.Models.BooksController.GetBooks (RESTfulBookWebsite)' with route pattern 'api/Books' is valid for the request path '/api/Books'
+2025-05-25 15:54:08.241 +03:00 [DBG] Request matched endpoint 'RESTfulBookWebsite.Models.BooksController.GetBooks (RESTfulBookWebsite)'
+2025-05-25 15:54:08.241 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-05-25 15:54:08.241 +03:00 [DBG] The request has an origin header: 'https://book-angular-frontend.vercel.app'.
+2025-05-25 15:54:08.241 +03:00 [INF] CORS policy execution successful.
+2025-05-25 15:54:08.244 +03:00 [INF] Executing endpoint 'RESTfulBookWebsite.Models.BooksController.GetBooks (RESTfulBookWebsite)'
+2025-05-25 15:54:08.261 +03:00 [INF] Route matched with {action = "GetBooks", controller = "Books"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[RESTfulBookWebsite.Models.Dto.BookDTO]]] GetBooks() on controller RESTfulBookWebsite.Models.BooksController (RESTfulBookWebsite).
+2025-05-25 15:54:08.261 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-05-25 15:54:08.261 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-05-25 15:54:08.262 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-05-25 15:54:08.262 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-05-25 15:54:08.262 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-05-25 15:54:08.263 +03:00 [DBG] Executing controller factory for controller RESTfulBookWebsite.Models.BooksController (RESTfulBookWebsite)
+2025-05-25 15:54:08.618 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2025-05-25 15:54:09.097 +03:00 [DBG] Entity Framework Core 9.0.1 initialized 'ApplicationDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:9.0.1' with options: EngineType=SqlServer 
+2025-05-25 15:54:09.177 +03:00 [DBG] Executed controller factory for controller RESTfulBookWebsite.Models.BooksController (RESTfulBookWebsite)
+2025-05-25 15:54:09.179 +03:00 [INF] Getting all Books
+2025-05-25 15:54:09.356 +03:00 [DBG] Compiling query expression: 
+'DbSet<Book>()'
+2025-05-25 15:54:09.550 +03:00 [DBG] Generated query execution expression: 
+'queryContext => SingleQueryingEnumerable.Create<Book>(
+    relationalQueryContext: (RelationalQueryContext)queryContext, 
+    relationalCommandResolver: parameters => [LIFTABLE Constant: RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Book.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Book.AuthorID (int) Required, 1], [Property: Book.CreatedDate (DateTime) Required, 2], [Property: Book.Description (string) Required, 3], [Property: Book.Genre (Genre) Required, 4], [Property: Book.Name (string) Required, 5], [Property: Book.Rating (int) Required, 6], [Property: Book.ReadCount (int) Required, 7], [Property: Book.Title (string) Required, 8], [Property: Book.UpdatedDate (DateTime) Required, 9] }
+        SELECT b.Id, b.AuthorID, b.CreatedDate, b.Description, b.Genre, b.Name, b.Rating, b.ReadCount, b.Title, b.UpdatedDate
+        FROM Books AS b) | Resolver: c => new RelationalCommandCache(
+        c.Dependencies.MemoryCache, 
+        c.RelationalDependencies.QuerySqlGeneratorFactory, 
+        c.RelationalDependencies.RelationalParameterBasedSqlProcessorFactory, 
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Book.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Book.AuthorID (int) Required, 1], [Property: Book.CreatedDate (DateTime) Required, 2], [Property: Book.Description (string) Required, 3], [Property: Book.Genre (Genre) Required, 4], [Property: Book.Name (string) Required, 5], [Property: Book.Rating (int) Required, 6], [Property: Book.ReadCount (int) Required, 7], [Property: Book.Title (string) Required, 8], [Property: Book.UpdatedDate (DateTime) Required, 9] }
+        SELECT b.Id, b.AuthorID, b.CreatedDate, b.Description, b.Genre, b.Name, b.Rating, b.ReadCount, b.Title, b.UpdatedDate
+        FROM Books AS b, 
+        False, 
+        new HashSet<string>(
+            new string[]{ }, 
+            StringComparer.Ordinal
+        )
+    )].GetRelationalCommandTemplate(parameters), 
+    readerColumns: null, 
+    shaper: (queryContext, dataReader, resultContext, resultCoordinator) => 
+    {
+        Book entity;
+        entity = 
+        {
+            MaterializationContext materializationContext1;
+            IEntityType entityType1;
+            Book instance1;
+            InternalEntityEntry entry1;
+            bool hasNullKey1;
+            materializationContext1 = new MaterializationContext(
+                [LIFTABLE Constant: ValueBuffer | Resolver: _ => (object)ValueBuffer.Empty], 
+                queryContext.Context
+            );
+            instance1 = default(Book);
+            entry1 = queryContext.TryGetEntry(
+                key: [LIFTABLE Constant: Key: Book.Id PK | Resolver: c => c.Dependencies.Model.FindEntityType("RESTfulBookWebsite.Models.Book").FindPrimaryKey()], 
+                keyValues: new object[]{ (object)dataReader.GetInt32(0) }, 
+                throwOnNullKey: True, 
+                hasNullKey: hasNullKey1);
+            !(hasNullKey1) ? entry1 != default(InternalEntityEntry) ? 
+            {
+                entityType1 = entry1.EntityType;
+                return instance1 = (Book)entry1.Entity;
+            } : 
+            {
+                ISnapshot shadowSnapshot1;
+                shadowSnapshot1 = [LIFTABLE Constant: Snapshot | Resolver: _ => Snapshot.Empty];
+                entityType1 = [LIFTABLE Constant: EntityType: Book | Resolver: namelessParameter{0} => namelessParameter{0}.Dependencies.Model.FindEntityType("RESTfulBookWebsite.Models.Book")];
+                instance1 = switch (entityType1)
+                {
+                    case [LIFTABLE Constant: EntityType: Book | Resolver: namelessParameter{1} => namelessParameter{1}.Dependencies.Model.FindEntityType("RESTfulBookWebsite.Models.Book")]: 
+                        {
+                            return 
+                            {
+                                Book instance;
+                                instance = new Book();
+                                instance.<Id>k__BackingField = dataReader.GetInt32(0);
+                                instance.<AuthorID>k__BackingField = dataReader.GetInt32(1);
+                                instance.<CreatedDate>k__BackingField = dataReader.GetDateTime(2);
+                                instance.<Description>k__BackingField = dataReader.GetString(3);
+                                instance.<Genre>k__BackingField = Invoke(((EnumToNumberConverter<Genre, int>)((IReadOnlyProperty)[LIFTABLE Constant: Property: Book.Genre (Genre) Required | Resolver: namelessParameter{2} => namelessParameter{2}.Dependencies.Model.FindEntityType("RESTfulBookWebsite.Models.Book").FindProperty("Genre")]).GetTypeMapping().Converter).ConvertFromProviderTyped, dataReader.GetInt32(4));
+                                instance.<Name>k__BackingField = dataReader.GetString(5);
+                                instance.<Rating>k__BackingField = dataReader.GetInt32(6);
+                                instance.<ReadCount>k__BackingField = dataReader.GetInt32(7);
+                                instance.<Title>k__BackingField = dataReader.GetString(8);
+                                instance.<UpdatedDate>k__BackingField = dataReader.GetDateTime(9);
+                                (instance is IInjectableService) ? ((IInjectableService)instance).Injected(
+                                    context: materializationContext1.Context, 
+                                    entity: instance, 
+                                    queryTrackingBehavior: TrackAll, 
+                                    structuralType: [LIFTABLE Constant: EntityType: Book | Resolver: namelessParameter{3} => namelessParameter{3}.Dependencies.Model.FindEntityType("RESTfulBookWebsite.Models.Book")]) : default(void);
+                                return instance;
+                            }}
+                    default: 
+                        default(Book)
+                }
+                ;
+                entry1 = entityType1 == default(IEntityType) ? default(InternalEntityEntry) : queryContext.StartTracking(
+                    entityType: entityType1, 
+                    entity: instance1, 
+                    snapshot: shadowSnapshot1);
+                return instance1;
+            } : default(void);
+            return instance1;
+        };
+        return entity;
+    }, 
+    contextType: UdemiCourse.Data.ApplicationDBContext, 
+    standAloneStateManager: False, 
+    detailedErrorsEnabled: False, 
+    threadSafetyChecksEnabled: True)'
+2025-05-25 15:54:09.578 +03:00 [DBG] Creating DbConnection.
+2025-05-25 15:54:09.598 +03:00 [DBG] Created DbConnection. (17ms).
+2025-05-25 15:54:09.600 +03:00 [DBG] Opening connection to database 'BookWebsiteAPI' on server 'DenisComputer\SQLEXPRESS'.
+2025-05-25 15:54:10.198 +03:00 [DBG] Opened connection to database 'BookWebsiteAPI' on server 'DenisComputer\SQLEXPRESS'.
+2025-05-25 15:54:10.201 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-05-25 15:54:10.205 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (4ms).
+2025-05-25 15:54:10.206 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (5ms).
+2025-05-25 15:54:10.211 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Id], [b].[AuthorID], [b].[CreatedDate], [b].[Description], [b].[Genre], [b].[Name], [b].[Rating], [b].[ReadCount], [b].[Title], [b].[UpdatedDate]
+FROM [Books] AS [b]
+2025-05-25 15:54:10.263 +03:00 [INF] Executed DbCommand (51ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Id], [b].[AuthorID], [b].[CreatedDate], [b].[Description], [b].[Genre], [b].[Name], [b].[Rating], [b].[ReadCount], [b].[Title], [b].[UpdatedDate]
+FROM [Books] AS [b]
+2025-05-25 15:54:10.281 +03:00 [DBG] Context 'ApplicationDBContext' started tracking 'Book' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-05-25 15:54:10.306 +03:00 [DBG] Context 'ApplicationDBContext' started tracking 'Book' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-05-25 15:54:10.306 +03:00 [DBG] Context 'ApplicationDBContext' started tracking 'Book' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-05-25 15:54:10.306 +03:00 [DBG] Context 'ApplicationDBContext' started tracking 'Book' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-05-25 15:54:10.306 +03:00 [DBG] Context 'ApplicationDBContext' started tracking 'Book' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-05-25 15:54:10.306 +03:00 [DBG] Context 'ApplicationDBContext' started tracking 'Book' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-05-25 15:54:10.310 +03:00 [DBG] Closing data reader to 'BookWebsiteAPI' on server 'DenisComputer\SQLEXPRESS'.
+2025-05-25 15:54:10.315 +03:00 [DBG] A data reader for 'BookWebsiteAPI' on server 'DenisComputer\SQLEXPRESS' is being disposed after spending 48ms reading results.
+2025-05-25 15:54:10.317 +03:00 [DBG] Closing connection to database 'BookWebsiteAPI' on server 'DenisComputer\SQLEXPRESS'.
+2025-05-25 15:54:10.321 +03:00 [DBG] Closed connection to database 'BookWebsiteAPI' on server 'DenisComputer\SQLEXPRESS' (4ms).
+2025-05-25 15:54:10.337 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2025-05-25 15:54:10.338 +03:00 [DBG] No information found on request to perform content negotiation.
+2025-05-25 15:54:10.338 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-05-25 15:54:10.338 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-05-25 15:54:10.339 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-05-25 15:54:10.339 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RESTfulBookWebsite.Models.Dto.BookDTO, RESTfulBookWebsite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-05-25 15:54:10.429 +03:00 [INF] Executed action RESTfulBookWebsite.Models.BooksController.GetBooks (RESTfulBookWebsite) in 2164.7919ms
+2025-05-25 15:54:10.430 +03:00 [INF] Executed endpoint 'RESTfulBookWebsite.Models.BooksController.GetBooks (RESTfulBookWebsite)'
+2025-05-25 15:54:10.431 +03:00 [DBG] 'ApplicationDBContext' disposed.
+2025-05-25 15:54:10.434 +03:00 [DBG] Disposing connection to database 'BookWebsiteAPI' on server 'DenisComputer\SQLEXPRESS'.
+2025-05-25 15:54:10.435 +03:00 [DBG] Disposed connection to database '' on server '' (0ms).
+2025-05-25 15:54:10.435 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Books - 200 978 application/json; charset=utf-8 2199.1068ms
+2025-05-25 15:54:17.706 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7177/api/Books - null null
+2025-05-25 15:54:17.706 +03:00 [DBG] 1 candidate(s) found for the request path '/api/Books'
+2025-05-25 15:54:17.707 +03:00 [DBG] Request matched endpoint '405 HTTP Method Not Supported'
+2025-05-25 15:54:17.707 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-05-25 15:54:17.707 +03:00 [DBG] The request has an origin header: 'https://book-angular-frontend.vercel.app'.
+2025-05-25 15:54:17.707 +03:00 [INF] CORS policy execution successful.
+2025-05-25 15:54:17.707 +03:00 [DBG] The request is a preflight request.
+2025-05-25 15:54:17.707 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7177/api/Books - 204 null null 1.2957ms
+2025-05-25 15:54:17.711 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Books - null null
+2025-05-25 15:54:17.712 +03:00 [DBG] 1 candidate(s) found for the request path '/api/Books'
+2025-05-25 15:54:17.712 +03:00 [DBG] Endpoint 'RESTfulBookWebsite.Models.BooksController.GetBooks (RESTfulBookWebsite)' with route pattern 'api/Books' is valid for the request path '/api/Books'
+2025-05-25 15:54:17.712 +03:00 [DBG] Request matched endpoint 'RESTfulBookWebsite.Models.BooksController.GetBooks (RESTfulBookWebsite)'
+2025-05-25 15:54:17.712 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-05-25 15:54:17.712 +03:00 [DBG] The request has an origin header: 'https://book-angular-frontend.vercel.app'.
+2025-05-25 15:54:17.712 +03:00 [INF] CORS policy execution successful.
+2025-05-25 15:54:17.712 +03:00 [INF] Executing endpoint 'RESTfulBookWebsite.Models.BooksController.GetBooks (RESTfulBookWebsite)'
+2025-05-25 15:54:17.713 +03:00 [INF] Route matched with {action = "GetBooks", controller = "Books"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[RESTfulBookWebsite.Models.Dto.BookDTO]]] GetBooks() on controller RESTfulBookWebsite.Models.BooksController (RESTfulBookWebsite).
+2025-05-25 15:54:17.713 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-05-25 15:54:17.713 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-05-25 15:54:17.713 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-05-25 15:54:17.713 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-05-25 15:54:17.713 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-05-25 15:54:17.713 +03:00 [DBG] Executing controller factory for controller RESTfulBookWebsite.Models.BooksController (RESTfulBookWebsite)
+2025-05-25 15:54:17.745 +03:00 [DBG] Entity Framework Core 9.0.1 initialized 'ApplicationDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:9.0.1' with options: EngineType=SqlServer 
+2025-05-25 15:54:17.746 +03:00 [DBG] Executed controller factory for controller RESTfulBookWebsite.Models.BooksController (RESTfulBookWebsite)
+2025-05-25 15:54:17.746 +03:00 [INF] Getting all Books
+2025-05-25 15:54:17.746 +03:00 [DBG] Creating DbConnection.
+2025-05-25 15:54:17.747 +03:00 [DBG] Created DbConnection. (0ms).
+2025-05-25 15:54:17.747 +03:00 [DBG] Opening connection to database 'BookWebsiteAPI' on server 'DenisComputer\SQLEXPRESS'.
+2025-05-25 15:54:17.747 +03:00 [DBG] Opened connection to database 'BookWebsiteAPI' on server 'DenisComputer\SQLEXPRESS'.
+2025-05-25 15:54:17.747 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-05-25 15:54:17.747 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2025-05-25 15:54:17.747 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2025-05-25 15:54:17.747 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Id], [b].[AuthorID], [b].[CreatedDate], [b].[Description], [b].[Genre], [b].[Name], [b].[Rating], [b].[ReadCount], [b].[Title], [b].[UpdatedDate]
+FROM [Books] AS [b]
+2025-05-25 15:54:17.751 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Id], [b].[AuthorID], [b].[CreatedDate], [b].[Description], [b].[Genre], [b].[Name], [b].[Rating], [b].[ReadCount], [b].[Title], [b].[UpdatedDate]
+FROM [Books] AS [b]
+2025-05-25 15:54:17.751 +03:00 [DBG] Context 'ApplicationDBContext' started tracking 'Book' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-05-25 15:54:17.751 +03:00 [DBG] Context 'ApplicationDBContext' started tracking 'Book' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-05-25 15:54:17.751 +03:00 [DBG] Context 'ApplicationDBContext' started tracking 'Book' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-05-25 15:54:17.751 +03:00 [DBG] Context 'ApplicationDBContext' started tracking 'Book' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-05-25 15:54:17.751 +03:00 [DBG] Context 'ApplicationDBContext' started tracking 'Book' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-05-25 15:54:17.751 +03:00 [DBG] Context 'ApplicationDBContext' started tracking 'Book' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-05-25 15:54:17.751 +03:00 [DBG] Closing data reader to 'BookWebsiteAPI' on server 'DenisComputer\SQLEXPRESS'.
+2025-05-25 15:54:17.751 +03:00 [DBG] A data reader for 'BookWebsiteAPI' on server 'DenisComputer\SQLEXPRESS' is being disposed after spending 0ms reading results.
+2025-05-25 15:54:17.751 +03:00 [DBG] Closing connection to database 'BookWebsiteAPI' on server 'DenisComputer\SQLEXPRESS'.
+2025-05-25 15:54:17.751 +03:00 [DBG] Closed connection to database 'BookWebsiteAPI' on server 'DenisComputer\SQLEXPRESS' (0ms).
+2025-05-25 15:54:17.752 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2025-05-25 15:54:17.752 +03:00 [DBG] No information found on request to perform content negotiation.
+2025-05-25 15:54:17.752 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-05-25 15:54:17.752 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-05-25 15:54:17.752 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-05-25 15:54:17.752 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RESTfulBookWebsite.Models.Dto.BookDTO, RESTfulBookWebsite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-05-25 15:54:17.752 +03:00 [INF] Executed action RESTfulBookWebsite.Models.BooksController.GetBooks (RESTfulBookWebsite) in 39.5099ms
+2025-05-25 15:54:17.752 +03:00 [INF] Executed endpoint 'RESTfulBookWebsite.Models.BooksController.GetBooks (RESTfulBookWebsite)'
+2025-05-25 15:54:17.752 +03:00 [DBG] 'ApplicationDBContext' disposed.
+2025-05-25 15:54:17.752 +03:00 [DBG] Disposing connection to database 'BookWebsiteAPI' on server 'DenisComputer\SQLEXPRESS'.
+2025-05-25 15:54:17.752 +03:00 [DBG] Disposed connection to database '' on server '' (0ms).
+2025-05-25 15:54:17.752 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Books - 200 978 application/json; charset=utf-8 41.3527ms
+2025-05-25 15:55:34.102 +03:00 [DBG] Connection id "0HNCRHCQN2USO" received FIN.
+2025-05-25 15:55:34.103 +03:00 [DBG] Connection id "0HNCRHCQN2USO" is closed. The last processed stream ID was 7.
+2025-05-25 15:55:34.103 +03:00 [DBG] Connection id "0HNCRHCQN2USO" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-25 15:55:34.104 +03:00 [DBG] The connection queue processing loop for 0HNCRHCQN2USO completed.
+2025-05-25 15:55:34.115 +03:00 [DBG] Connection id "0HNCRHCQN2USO" stopped.
+2025-05-25 15:55:34.117 +03:00 [DBG] Connection id "0HNCRHCQN2USN" received FIN.
+2025-05-25 15:55:34.117 +03:00 [DBG] Connection id "0HNCRHCQN2USN" is closed. The last processed stream ID was 21.
+2025-05-25 15:55:34.117 +03:00 [DBG] Connection id "0HNCRHCQN2USN" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-25 15:55:34.117 +03:00 [DBG] The connection queue processing loop for 0HNCRHCQN2USN completed.
+2025-05-25 15:55:34.118 +03:00 [DBG] Connection id "0HNCRHCQN2USN" stopped.

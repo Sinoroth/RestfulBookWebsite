@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RESTfulBookWebsite")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+33ee0f4bb2b6daacf4ea902d9538587a48498cea")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7bd68bad9509a8a3dbd109eecf08c0487bca5985")]
 [assembly: System.Reflection.AssemblyProductAttribute("RESTfulBookWebsite")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RESTfulBookWebsite")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
