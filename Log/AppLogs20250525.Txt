@@ -314,3 +314,66 @@ FROM [Books] AS [b]
 2025-05-25 15:55:34.117 +03:00 [DBG] Connection id "0HNCRHCQN2USN" sending FIN because: "The Socket transport's send loop completed gracefully."
 2025-05-25 15:55:34.117 +03:00 [DBG] The connection queue processing loop for 0HNCRHCQN2USN completed.
 2025-05-25 15:55:34.118 +03:00 [DBG] Connection id "0HNCRHCQN2USN" stopped.
+2025-05-25 15:56:47.520 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-05-25 15:56:47.585 +03:00 [DBG] Hosting starting
+2025-05-25 15:56:47.728 +03:00 [INF] Now listening on: https://localhost:7177
+2025-05-25 15:56:47.728 +03:00 [INF] Now listening on: http://localhost:5086
+2025-05-25 15:56:47.728 +03:00 [DBG] Loaded hosting startup assembly RESTfulBookWebsite
+2025-05-25 15:56:47.728 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-05-25 15:56:47.728 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-05-25 15:56:47.728 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-05-25 15:56:47.802 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-25 15:56:47.802 +03:00 [INF] Hosting environment: Development
+2025-05-25 15:56:47.802 +03:00 [INF] Content root path: D:\UdemiCourse - Copy\UdemiCourse
+2025-05-25 15:56:47.802 +03:00 [DBG] Hosting started
+2025-05-25 15:56:48.084 +03:00 [DBG] Connection id "0HNCRHEE44RON" accepted.
+2025-05-25 15:56:48.084 +03:00 [DBG] Connection id "0HNCRHEE44ROO" accepted.
+2025-05-25 15:56:48.085 +03:00 [DBG] Connection id "0HNCRHEE44RON" started.
+2025-05-25 15:56:48.085 +03:00 [DBG] Connection id "0HNCRHEE44ROO" started.
+2025-05-25 15:56:48.127 +03:00 [DBG] Connection id "0HNCRHEE44ROO" received FIN.
+2025-05-25 15:56:48.127 +03:00 [DBG] Connection id "0HNCRHEE44RON" received FIN.
+2025-05-25 15:56:48.140 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-05-25 15:56:48.140 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-05-25 15:56:48.163 +03:00 [DBG] Connection id "0HNCRHEE44ROO" stopped.
+2025-05-25 15:56:48.163 +03:00 [DBG] Connection id "0HNCRHEE44RON" stopped.
+2025-05-25 15:56:48.166 +03:00 [DBG] Connection id "0HNCRHEE44ROO" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-25 15:56:48.166 +03:00 [DBG] Connection id "0HNCRHEE44RON" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-25 15:56:48.267 +03:00 [DBG] Connection id "0HNCRHEE44ROP" accepted.
+2025-05-25 15:56:48.267 +03:00 [DBG] Connection id "0HNCRHEE44ROP" started.
+2025-05-25 15:56:48.287 +03:00 [DBG] Connection 0HNCRHEE44ROP established using the following protocol: "Tls13"
+2025-05-25 15:56:48.327 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/index.html - null null
+2025-05-25 15:56:48.386 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-05-25 15:56:48.396 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2025-05-25 15:56:48.396 +03:00 [DBG] Request did not match any endpoints
+2025-05-25 15:56:48.436 +03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-05-25 15:56:48.437 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-05-25 15:56:48.440 +03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2025-05-25 15:56:48.441 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-05-25 15:56:48.443 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/index.html - 200 null text/html;charset=utf-8 122.113ms
+2025-05-25 15:56:48.469 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/_vs/browserLink - null null
+2025-05-25 15:56:48.469 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-25 15:56:48.469 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/index.js - null null
+2025-05-25 15:56:48.469 +03:00 [DBG] No candidates found for the request path '/swagger/index.js'
+2025-05-25 15:56:48.469 +03:00 [DBG] Request did not match any endpoints
+2025-05-25 15:56:48.474 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/index.js - 200 null application/javascript;charset=utf-8 5.5488ms
+2025-05-25 15:56:48.486 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 16.9892ms
+2025-05-25 15:56:48.503 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/_vs/browserLink - 200 null text/javascript; charset=UTF-8 34.517ms
+2025-05-25 15:56:48.586 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/v1/swagger.json - null null
+2025-05-25 15:56:48.586 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-05-25 15:56:48.586 +03:00 [DBG] Request did not match any endpoints
+2025-05-25 15:56:48.699 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 114.3055ms
+2025-05-25 16:22:30.680 +03:00 [DBG] Connection id "0HNCRHEE44ROP" received FIN.
+2025-05-25 16:22:30.689 +03:00 [DBG] The connection queue processing loop for 0HNCRHEE44ROP completed.
+2025-05-25 16:22:30.689 +03:00 [DBG] Connection id "0HNCRHEE44ROP" is closed. The last processed stream ID was 9.
+2025-05-25 16:22:30.689 +03:00 [DBG] Connection id "0HNCRHEE44ROP" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-25 16:22:30.704 +03:00 [DBG] Connection id "0HNCRHEE44ROP" stopped.
